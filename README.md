@@ -25,4 +25,34 @@ screenshot below:
 
 ## Part 2: Simulating Tom and Jerry's Work
 ### 2.1. Tom's Work
-Created a new branch called update-navigation
+Created a new branch called update-navigation  
+
+Switched to the new branch using the command `git checkout update-navigation  `
+
+Edited the file Index.html in the root directory of the repository. added the following code to the file: "This is Tom adding Navigation to the AI-website". 
+
+Run the following commands in the terminal:  
+git status  
+git add index.html  
+git status  
+git commit -m "Update navigation bar"  
+git push origin update-navigation  
+screenshot below: 
+![Tom's CLI Commands](./img/5.jpg)
+
+### 2.2. Jerry's Work
+switch back to the main branch using the command `git checkout main  `  
+Pull the latest changes from the remote repository using the command `git pull origin update-navigation  `
+
+created a new branch called add-contact-info and switched to the new branch using the command `git checkout add-contact-info`  
+
+Edited the file Index.html in the root directory of the repository. added the following code to the file: "This is Jerry adding Contact Information".  
+
+Run the following commands in the terminal:  
+git status  
+git add index.html  
+git status  
+git commit -m "Add contact information"  
+git push origin add-contact-info  
+screenshot below:
+![Jerry's CLI Commands](./img/6.jpg)
