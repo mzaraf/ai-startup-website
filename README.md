@@ -56,3 +56,17 @@ git commit -m "Add contact information"
 git push origin add-contact-info  
 screenshot below:
 ![Jerry's CLI Commands](./img/6.jpg)
+
+## Part 3: Merging Changes
+### 3.1. Create a Pull Request
+Open github.com and navigate to the repository. click on the pull requests tab. click on the new pull request button. 
+![Select Branch](./img/7.1.jpg)
+
+click on create pull request and select the base branch as main and the compare branch as update-navigation.
+![Select Branch](./img/7.2.jpg)  
+
+### 3.2. Merge the Pull Request
+click on the merge pull request button. click on confirm merge.
+screenshot below:
+![Merge Pull Request](./img/7.3.jpg)
+
